@@ -1,9 +1,17 @@
-fastapi
-uvicorn[standard]
-SQLAlchemy
-PyMySQL
-python-dotenv
-python-jose[cryptography]
-pwdlib[argon2]
-email-validator
-httpx
+1.Initialize Git in your project folder:
+git init -b main
+
+2.Stage all your files to be committe:
+git add .
+
+3.Commit the files with a message:
+
+git commit -m "Initial commit"
+
+4.Link your local project to your GitHub repository (replace the URL with your actual repo link):
+
+git remote add origin https://github.com
+
+5.Push your code to GitHub:
+
+git push -u origin main
